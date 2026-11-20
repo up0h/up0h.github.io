@@ -717,3 +717,17 @@ html {
 .support {
     background: transparent !important;
 }
+@media (max-width: 600px) {
+    .lever {
+        width: 38px;
+        height: 41px;
+        zoom: 0.70;
+    }
+}
+@media (max-width: 380px) {
+    .lever {
+        width: 32px;
+        height: 35px;
+        zoom: 0.60;
+    }
+}
