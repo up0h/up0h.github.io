@@ -348,16 +348,16 @@ nav {
     padding: 17px 30px;
     border-radius: 15px;
 
-    background: #B9F227;
-    color: #26320A;
+    background: var(--light);
+    color: #98616C;
 
     font-size: 15px;
     font-weight: 900;
     text-decoration: none;
 
     box-shadow:
-        0 6px 0 #779C16,
-        0 12px 25px rgba(185, 242, 39, .2);
+        0 6px 0 #98616C,
+        0 12px 25px #D69AA4;
 
     transition: transform .25s, box-shadow .25s;
 }
@@ -369,13 +369,13 @@ nav {
 .community-button:hover {
     transform: translateY(-4px);
     box-shadow:
-        0 10px 0 #779C16,
-        0 18px 30px rgba(185, 242, 39, .3);
+        0 10px 0 #98616C,
+        0 18px 30px #D69AA4;
 }
 
 .community-button:active {
     transform: translateY(4px);
-    box-shadow: 0 2px 0 #779C16;
+    box-shadow: 0 2px 0 #DB7189;
 }
 
 .community-footer {
@@ -610,16 +610,16 @@ html {
     padding: 17px 30px;
     border-radius: 15px;
 
-    background: #B9F227;
-    color: #26320A;
+    background: #EDBAC1;
+    color: #bd7182;
 
     font-size: 15px;
     font-weight: 900;
     text-decoration: none;
 
     box-shadow:
-        0 6px 0 #779C16,
-        0 12px 25px rgba(185, 242, 39, .2);
+        0 6px 0 #98616C,
+        0 12px 25px #D69AA4;
 
     transition: transform .25s, box-shadow .25s;
 }
@@ -627,13 +627,13 @@ html {
 .support-button:hover {
     transform: translateY(-4px);
     box-shadow:
-        0 10px 0 #779C16,
-        0 18px 30px rgba(185, 242, 39, .3);
+        0 10px 0 #98616C,
+        0 18px 30px #D69AA4;
 }
 
 .support-button:active {
     transform: translateY(4px);
-    box-shadow: 0 2px 0 #779C16;
+    box-shadow: 0 2px 0 #b35b72;
 }
 
 .support-footer {
